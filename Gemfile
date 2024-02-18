@@ -1,19 +1,21 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-ruby "3.1.2"
+ruby '3.1.2'
 
-gem "rails", "~> 7.1.3"
+gem 'rails', '~> 7.1.3'
 
-gem "bootsnap", require: false
-gem "cssbundling-rails"
-gem "importmap-rails"
-gem "jbuilder"
-gem "puma", ">= 5.0"
-gem "sqlite3", "~> 1.4"
-gem "stimulus-rails"
-gem "sprockets-rails"
-gem "turbo-rails"
-gem "tzinfo-data"
+gem 'bootsnap', require: false
+gem 'cssbundling-rails'
+gem 'devise'
+gem 'importmap-rails'
+gem 'jbuilder'
+gem 'puma', '>= 5.0'
+gem 'sqlite3', '~> 1.4'
+gem 'stimulus-rails'
+gem 'simple_form'
+gem 'sprockets-rails'
+gem 'turbo-rails'
+gem 'tzinfo-data'
 
 group :development, :test do
   gem 'awesome_print'
@@ -27,8 +29,8 @@ group :development, :test do
 end
 
 group :development do
-  gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
-  gem "web-console"
+  gem 'error_highlight', '>= 0.4.0', platforms: [:ruby]
+  gem 'web-console'
 end
 
 group :test do
