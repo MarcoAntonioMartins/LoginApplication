@@ -16,7 +16,14 @@ gem "turbo-rails"
 gem "tzinfo-data"
 
 group :development, :test do
-  gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
+  gem 'awesome_print'
+  gem 'debug', platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
+  gem 'dotenv-rails'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'pry-rails'
+  gem 'rspec-rails'
+  gem 'rubocop'
 end
 
 group :development do
@@ -25,6 +32,10 @@ group :development do
 end
 
 group :test do
-  gem "capybara"
-  gem "selenium-webdriver"
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
+  gem 'simplecov'
+  gem 'vcr'
 end
