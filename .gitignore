@@ -37,3 +37,6 @@
 # Ignore production variables
 .env
 .env.test
+
+# Ignore simplecov
+coverage
