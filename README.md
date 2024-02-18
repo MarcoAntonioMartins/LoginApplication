@@ -17,7 +17,7 @@ Linha de tempo dos comandos de Criação:
     rails new LoginApplication -c bootstrap
     ```
     
-- [Create Project](https://github.com/MarcoAntonioMartins/LoginApplication/pull/3d)
+- [Config Rspec](https://github.com/MarcoAntonioMartins/LoginApplication/pull/3)
     ```
     rails generate rspec:install
     ```
