@@ -15,6 +15,7 @@ Linha de tempo dos comandos de Criação:
 - [Create Project](https://github.com/MarcoAntonioMartins/LoginApplication/commit/9b3239949c398abcb93df4edb30be64d23f16e1d)
     ```
     rails new LoginApplication -c bootstrap
+    rake db:create
     ```
     
 - [Config Rspec](https://github.com/MarcoAntonioMartins/LoginApplication/pull/3)
