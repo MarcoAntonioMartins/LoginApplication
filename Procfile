@@ -1,7 +1,7 @@
 web: bundle exec rails s -p 3000 -b '0.0.0.0'
 js: yarn build --watch
 css: yarn build:css --watch
-# devise: yarn build:css:devise --watch
+devise: yarn build:css:devise --watch
 
 ## extra codes by reference
 # redis: redis-server config/redis/development.conf
